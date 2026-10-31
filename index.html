@@ -13,6 +13,7 @@
         <a href="#home">Главная</a>
         <a href="#about">Обо мне</a>
         <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
       </nav>
     </header>
     <main>
@@ -28,11 +29,16 @@
       <a href="#projects" class="button">Мои проекты</a>
       <a href="https://www.google.com/">Перейти в Google</a>
       <img src="images/images.jpg" alt="Кот на голубом фоне" />
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
+      <section class="skills">
+        <h2>Мои навыки</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
       <ol>
         <li>Изучить HTML</li>
         <li>Изучить CSS</li>
@@ -40,28 +46,38 @@
       </ol>
 
       <section class="projects" id="projects">
-        <a href="#" class="card">
-          <h3>Мой первый сайт</h3>
-          <p>
-            Мой учебный проект по HTML и CSS. Я учусь создавать красивые и
-            адаптивные сайты.
-          </p>
-          <span>Посмотреть проект →</span>
-        </a>
+        <h2>Мои проекты</h2>
 
-        <div class="card">
-          <h3>Обо мне</h3>
-          <p>Страница с информацией обо мне.</p>
-        </div>
+        <div class="projects-list">
+          <a href="#" class="card">
+            <h3>Мой первый сайт</h3>
+            <p>
+              Мой учебный проект по HTML и CSS. Я учусь создавать красивые и
+              адаптивные сайты.
+            </p>
+            <span>Посмотреть проект →</span>
+          </a>
 
-        <div class="card">
-          <h3>Портфолио</h3>
-          <p>Мои учебные проекты.</p>
+          <a href="#" class="card">
+            <h3>Обо мне</h3>
+            <p>Страница с информацией обо мне.</p>
+          </a>
+
+          <a href="#" class="card">
+            <h3>Портфолио</h3>
+            <p>Мои учебные проекты.</p>
+          </a>
         </div>
       </section>
+      <section class="contacts" id="contacts">
+        <h2>Контакты</h2>
+        <p>Если вы хотите обсудить проект, свяжитесь со мной.</p>
+        <a href="mailto:your-email@example.com">Написать мне</a>
+      </section>
     </main>
-    <footer>
-      <p>Мой первый проект</p>
+    <footer class="footer">
+      <p>© 2026 Мой сайт. Все права защищены.</p>
+      <p>Создано с помощью HTML и CSS.</p>
     </footer>
   </body>
 </html>
